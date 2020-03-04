@@ -50,6 +50,11 @@ function ZipResponse(props) {
                         </tr>
                     </tbody>
                 </table>
+                <table className="table table-info table-hover">
+                    <tr>
+                        <td>This is a new row</td>
+                    </tr>
+                </table>
             </div>
         )
     }

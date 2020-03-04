@@ -30,7 +30,7 @@ function AppContainer(props) {
                 <div className="col-sm-2"></div>
                 <ZipResponse responseData={responseData} clearResponse={clearResponse}/>
                 <div className="col-sm-2"></div>
-            </div>    
+            </div>
         </div>
     );
 }
