@@ -48,12 +48,15 @@ function ZipResponse(props) {
                             <td>Conditions</td>
                             <td>{props.responseData.weather[0].description}</td>
                         </tr>
+                        <tr>
+                            <td>Wind Speed</td>
+                            <td>{props.responseData.wind.speed}</td>
+                        </tr>
+                        <tr>
+                            <td>Wind Gust</td>
+                            <td>{props.responseData.wind.gust}</td>
+                        </tr>
                     </tbody>
-                </table>
-                <table className="table table-info table-hover">
-                    <tr>
-                        <td>This is a new row</td>
-                    </tr>
                 </table>
             </div>
         )
