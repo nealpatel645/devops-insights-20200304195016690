@@ -22,7 +22,7 @@ function ZipResponse(props) {
                     <tbody>
                         <tr>
                             <td>City</td>
-                            <td>{props.responseData.name}</td>
+                            <td>{props.responseData.name}, {props.responseData.sys.country}</td>
                         </tr>
                         <tr>
                             <td>Temperature</td>
