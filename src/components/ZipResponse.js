@@ -56,6 +56,10 @@ function ZipResponse(props) {
                             <td>Wind Gust</td>
                             <td>{props.responseData.wind.gust}</td>
                         </tr>
+                        <tr>
+                            <td>Feels Like</td>
+                            <td>{props.responseData.main.feels_like}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
